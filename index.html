@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisador de CEP</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <form class="form">
+    <label for="cep">Digite o CEP:</label>
+    <input type="text" id="cep" name="cep">
+    <button class="button">Enviar</button>
+
+    <h1>Dados retornados:</h1>
+    <label for="logradouro">Rua</label>
+    <input type="text" class="dados" name="logradouro" id="logradouro" disabled>
+
+    <label for="complemento">Complemento</label>
+    <input type="text" class="dados" name="complemento" id="complemento" disabled>
+
+    <label for="bairro">Bairro</label>
+    <input type="text" class="dados" name="bairro" id="bairro" disabled>
+
+    <label for="localidade">Cidade</label>
+    <input type="text" class="dados" name="localidade" id="localidade" disabled>
+
+    <label for="uf">UF</label>
+    <input type="text" class="dados" name="uf" id="uf" disabled>
+
+    <label for="ibge">IBGE</label>
+    <input type="text" class="dados" name="ibge" id="ibge" disabled>
+  </form>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
